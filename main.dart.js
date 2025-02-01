@@ -90531,7 +90531,7 @@ q=!1
 s=1
 break}k=t.N
 s=3
-return A.V(A.aYB(A.f_("https://billetterie.lawif.fr/api/accessControl"),A.a2(["Authorization","Bearer "+b],k,k)),$async$uv)
+return A.V(A.aYB(A.f_("http://207.154.193.188:5000/accessControl"),A.a2(["Authorization","Bearer "+b,"Access-Control-Allow-Origin","*"],k,k)),$async$uv)
 case 3:j=d
 if(j.b!==200){q=!1
 s=1
